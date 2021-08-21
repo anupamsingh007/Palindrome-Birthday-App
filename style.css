@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@500&display=swap');
+
+
+body {
+    text-align: center;
+    background-image: url("image/gradient.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    font-family: 'Hahmlet', serif;
+}
+
+h1 {
+    margin: 2rem 0;
+}
+
+h3 {
+    margin: 3rem 0;
+    font-size: larger;
+}
+
+#bday-input {
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    outline: none;
+    background-color: rgb(222, 209, 236);
+    color: rgb(0, 0, 0);
+    border: 1px solid red;
+    font-family: 'Hahmlet', serif;
+}
+
+#show-btn {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.3rem 1rem;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: purple;
+    color: wheat;
+    font-family: 'Hahmlet', serif;
+}
+
+#result {
+    font-size: x-large;
+    font-family: 'Hahmlet', serif;
+    margin: 3rem;
+}
